@@ -1,0 +1,205 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+header 
+{
+	widows: 100%;
+	padding: 20px;
+	background: limegreen;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navone
+{
+	width: 100%;
+	padding: 30px;
+	/*color: hotpink;*/
+	background: oldlace;
+}
+
+.navone .navigation
+{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.navigation ul li 
+{
+	display: inline-block;
+	padding: 0 7px;
+}
+
+.logo  { font-size: 28px; font-weight: 700; color: black; border: 1px;}
+.logo span { color: limegreen; }
+
+.navigation ul li:hover{outline: 1px solid #ccc; border-radius: 30px;}
+/*----------------------------------------------------------------*/
+
+.navtwo
+{
+	/*padding: 25px;*/
+	width: 100%;
+	background: black;
+
+}
+
+.navitwo
+{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.navitwo ul li 
+{
+	display: inline-block;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.navitwo ul li a{ color: white; padding: 10px; }
+
+.navitwo .nava 
+{
+	font-size: 18px;
+	color: white;
+}
+
+.navitwo a:hover{background: green; }
+
+.nava { margin: auto 0; }
+.nava i { font-size: 36px!important; }
+/*-------------------------------------------------------*/
+
+ 
+.bck
+{
+	background: url(images/power.jpg);
+	padding: 50px;
+	background-position: center;
+	background-size: cover;
+}
+
+.bck h1 { font-size: 36px;
+          font-weight: 900;
+          color: white; }
+.bck p{ font-size: 28px; font-weight: 700; color: white; }
+
+.bck button { background: rgba(0, 0, 1, 0.4); border-radius: 30px; outline: none; padding: 7px 14px; color: white; margin-top: 10px; }
+/*---------------------------*/
+
+.info { padding: 20px; background: grey; display: flex; justify-content: space-between;  }
+.options { padding: 10px; display: flex; background:silver; width:calc(12.2% - 10px); }
+/*---------------------------*/
+
+.thired
+{
+	/*background: white;*/
+	padding: 50px;
+    text-align: center;
+
+}
+
+.thired h1
+{
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.src
+{
+	/*background: teal;*/
+	/*padding: 20px;*/
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+
+}
+
+.src_inner
+{
+	width: 460px;
+	height: 40px;
+	border-radius: 5px 0 0 5px;
+	
+}
+
+.thired select
+{
+	width: 70px;
+	height: 40px;
+	
+}
+
+.thired .bbr
+
+{
+	background: limegreen;
+	padding: 7px 10px;
+	border: none;
+	outline: none;
+	border-radius: 0 5px 5px 0;
+}
+
+.partician
+{
+	width: 100%;
+	/*background: red;*/
+	padding: 10px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.partician_inner
+{
+	width: calc(12.5% - 15px);
+	background: whitesmoke;
+	padding: 10px;
+}
+
+.btr
+{
+	outline: none;
+	border-radius: 10px;
+	border:  1px solid limegreen;
+	margin-top: 20px;
+	padding: 7px 10px;
+	background: white;
+}
+
+.btr:hover{background: limegreen; color: black;font-weight: 500; text-transform: capitalize;}
+/*--------------------------------------------------------*/
+
+
+.cards { padding: 50px; background: #f2f2f2; text-align: center; }
+.h {
+text-transform: uppercase; font-weight: 900; font-size: sans-serif; }
+
+.cards_particican{
+	padding: 40px;
+	background: red;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.cards_partician_one
+{
+	padding: 30px;
+	background: blue;
+
+}
+
+/*-----------------------------------------------------*/
+
+@media(max-width: 768px)
+ {
+ nav { display: none; } 
+ }

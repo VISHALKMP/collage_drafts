@@ -1,0 +1,440 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>project-2</title>
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style type="text/css">
+			*
+			{ padding: 0;
+			  margin: 0;
+			  box-sizing: border-box;
+			  text-decoration: none;
+			}
+	/* -----------------------------navigation part--------- */
+			nav { /*padding: 10px;
+			      background: greenyellow; */
+			      display: flex;
+			      justify-content: space-between;
+			    }
+		 .menu { padding: 10px; 
+		         background: rgba(0, 0, 0, 0.5);
+		         width: 100%; 
+		         display: flex;
+		         justify-content: space-between;
+		         margin: auto;
+		         align-items: center;
+		       }
+	   .logos {
+	             width: 150px;
+	            font-size: 28px;
+	            font-weight: 600;
+	            color: lightgreen;
+	          }
+
+	.menu ul li { 
+		          display: inline-block;
+	            padding: 7px 15px; 
+	            text-transform: uppercase; 
+	            }
+	.menu ul li a { color: white }
+
+	.extra { color: yellow; }
+
+	/*------------------------------------------------------------*/
+	/*----------------------------------------home section1*/
+
+	#home { height: 100vh;
+	        /*padding: 20px;*/
+	        background: url(images/nature.jpg);
+	        background-size: cover;
+	        background-position: center; 
+	        display: flex;
+	        justify-content: center;
+	        align-items: center;
+	       }
+
+	.home_inner 
+	      { padding: 50px;
+	      	max-width: 950px;
+	        background: rgba(0, 0, 0, 0.7); 
+	        color: white;
+	        text-align: center;
+	        text-transform: capitalize;
+	      }
+	.home_inner h3 
+	      { font-size: 14px;
+	        word-spacing: 1px; 
+	        margin: 20px 0px;
+	      } 
+
+	button { background: lightgreen; 
+		      color: yellow;
+		      font-size: 18px; 
+		      padding: 7px 20px;
+		      outline: none;
+		      border: none;
+		      border-radius: 5px;
+		      font-size: 20px;
+		      display: block;
+		      justify-content: center;
+		      align-items: center;
+		      text-align: center;
+		      margin: auto; 
+		    }
+
+	/*--------------------------------------------about css*/
+
+
+	#about { padding: 20px; 
+		     max-width: 1700px;
+	         margin: 50px; }
+
+	#about h1 { text-align: center;
+	            font-size: 36px; 
+	          }
+
+	.about_inner { width: 100%;
+	               max-width: 1200px; 
+	               padding: 10px; 
+	               margin: auto;
+	               display: flex;
+	               justify-content: space-between;
+	               text-align: center;
+	               flex-wrap: wrap;	
+	              }
+
+	.inner { padding: 10px;
+	         width: calc( 50% - 10px);   
+	         display: flex;
+	       }
+
+	.inner_head {width: calc(30% - 5px); 
+	             padding: 10px; 
+	             }
+
+	.inner_para { width: calc(70% - 5px); 
+	              padding: 10px; 
+	              text-align: justify; 
+	              color: gray;
+	            }
+
+	.ikon {font-size: 86px!important; 
+		  text-align: center;
+		  line-height: 150%;
+		  color: lightgray;
+		  }
+
+	 .btn 
+	      { background: palevioletred; 
+		      color: yellow;
+		      font-size: 18px; 
+		      padding: 7px 20px;
+		      outline: none;
+		      border: none;
+		      border-radius: 5px;
+		      font-size: 20px;
+		      display: block;
+		      justify-content: center;
+		      align-items: center;
+		      text-align: center;
+		      margin: auto; 
+		    }
+
+	/*------------------------------------------ services css----------*/
+	#services {/* padding: 20px;*/
+	           /*background: red*/;
+	             display: flex;
+	             justify-content: space-around; }
+
+	.services_l-r { height: 80vh; 
+		            width: calc(30% );
+		            background: url(images/wed1.png); 
+		            background-size: cover;
+		            background-position: center;
+		            text-transform: capitalize;
+		          }
+
+	.services_center { padding: 20px;
+	                   width: calc(40% );
+	                   background:url(images/earthbck.jpg);
+	                   background-position: center;
+	                   background-size:cover;
+	                   text-align: center;
+	                   text-transform: capitalize;
+	                   color: white;
+	                   font-weight: 400; }
+
+	.services_center h1,p { margin: 20px 8px 10px 5px ; }
+
+	#services button { text-align: center;
+	                   border: none;
+	                   outline: none;
+	                   padding: 5px 17px;
+	                   background: rgba(0, 0, 205, 0.7);
+	                   border-radius: 30px; }
+	/*---------------------------------------------------*/
+
+	#blog {height: 70vh;
+	/* padding: 50px;*/ 
+	        background: url(images/teamphoto.jpg)transparent;
+	       
+	       }
+
+	.conatiner {/*padding-top: 160px;*/
+	             display: flex;
+	        justify-content: space-around;
+	        align-items: center;
+	       /* margin-bottom: 50px;*/
+	        background-size: cover;
+	        background-position: center;
+	        margin-top: 50px;}
+
+	.blog_img { /*padding: 15px;*/
+
+
+	            width: 150px;
+	            height: 150px;
+	            background: black;
+	            border-radius: 50%;
+	            /*background: url(images/team1.jpg); */
+	            color: white;
+	        }
+
+	.blog_img img { width: 100%;
+	                height: 100%;
+	                border-radius: 50%; }
+	.blog_h1 { color: white;
+	           font-size: 36px;
+	           font-weight: 400;
+	           text-transform: capitalize;
+	           text-align: center; }
+	.blog_p { color: whitesmoke;
+	          font-size: 14px;
+	          font-weight: 200;
+	          
+	          text-align: center; }
+	.btn_blog { margin-top: 230px;
+	            background: gray;
+	            color: white; }
+	.map { height: 70vh;
+	       width: 100%;
+	       background: url(images/map.png);
+	       /*background-size: cover*/;
+	       background-position: center;
+	       background: ; }
+	 /*---------------------------------------------------------------*/
+
+	 .end { padding: 20px;
+	        text-align: center;
+	        margin: auto;
+	        color: black; }
+
+.end::hover.endsign{color: red;}
+/*--------------------------------------------------------*/
+
+@media screen and ( max-width: 768px)
+
+{  
+	#about {
+		 width: 50%%;
+		 align-content: space-between;
+	       }
+
+}
+
+@media screen and ( max-width: 600px)
+
+{  
+	.about {
+		 width: 100%%;
+		 align-content: space-between;
+	       }
+
+}
+
+
+
+
+
+
+			
+		</style>
+	</head>
+	<body>
+		<nav>
+		    <div class="menu" >
+			    	    <a href="#" class="logos">MICRO<span class="extra">SOFT</span></a>
+			    	 <ul>
+			    	    <li><a href="#">home</a></li>
+			    	    <li><a href="#">about</a></li>
+			    	    <li><a href="#">services</a></li>
+			    	    <li><a href="#">blog</a></li>
+			    	    <li><a href="#">team</a></li>
+			    	    <li><a href="#">contact</a></li></ul>
+		    </div></nav>
+	<!-- ------------------------------------------- -->
+
+		<section id="home">
+		        <div class="home_inner">
+		        	 <h1><span class="logos">micro</span><span class="extra">soft</span> is here to help you</h1>
+		        	 <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		        	 tempor incint occaecat cupidatat non Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		        	 tempor incididuntullamco laboris nisi ut aliquip ex ea commodo
+		        	 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		        	 cillum dolore eu fugiatfficia deserunt mollit anim id est laborum.
+		        	 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+		        	 <button>register</button>
+		        </div></section>
+	<!-- ----------------------------------------------------------------------------about 2nd sec -->
+
+	<section id="about">
+		<h1>what we do her's</h1>
+	          <div class="about_inner">
+	          	  <div class="inner">
+	          	  	<div class="inner_head"><i class="fas fa fa-address-card ikon"></i></div>
+
+	          	  	<div class="inner_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	          	  	tempor incididunt ut lamco laboris nisi ut aliquip ex ea commodo
+	          	  	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	          	  	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	          	  	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+
+	          	  </div>
+
+	          	  <div class="inner">
+	          	  	<div class="inner_head"><i class="fas fa fa-address-card ikon"></i></div>
+
+	          	  	<div class="inner_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	          	  	tempor incididunt ut laboramco laboris nisi ut aliquip ex ea commodo
+	          	  	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	          	  	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	          	  	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+	          	  </div>
+
+	              <div class="inner">
+	          	  	<div class="inner_head"><i class="fas fa fa-address-card ikon"></i></div>
+
+	          	  	<div class="inner_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	          	  	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	          	  	quis nostrud exercitatioe irure dolorur. Excepteur sint occaecat cupidatat non
+	          	  	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+	          	  </div>
+
+	             <div class="inner">
+	          	  	<div class="inner_head"><i class="fas fa fa-address-card ikon"></i></div>
+
+	          	  	<div class="inner_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	          	  	tempor incididunt ut laboreolor in reprehenderit in voluptate velit esse
+	          	  	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	          	  	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+	          	  </div>
+
+	          	  <button class="btn" >registeee</button>
+	       </div>
+	</section>
+	<!-- -----------------------------------------servicess section -->
+
+	<section id="services">
+		<div class="services_l-r"></div>
+		<div class="services_center"> 
+	            <h1>many catalogs here</h1>
+	            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	            quis n. Excepteur sint occaecat cupidatat non
+	            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	            <button> Watch more</button>
+		</div>
+		<div class="services_l-r"></div>
+
+	</section>
+
+	<!-- ----------------------------------------------------- blog section -->
+
+	<section id="blog">
+		<h1 class="blog_h1">About us</h1>
+		<p class="blog_p">our team presensts your company's best projescts join us to see progress in your life etc etc ect.. top mambers f ou comapny who handel and hardwork for comappnay</p>
+
+	<div class="conatiner">
+
+			<div class="blog_img"><img src="images/team2.jpg">
+		 <h1>priyanka pp</h1>
+		 <h2>CEO</h2>
+		 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 tempor inccaollit anim id est laborum.</p></div>
+
+
+
+		<div class="blog_img"><img src="images/team1.jpg">
+			<h1>Vishal verma</h1>
+		    <h2>maneger</h2>
+		    <p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 tempor inccaollit anim id est labor</p></div>
+
+
+
+		<div class="blog_img"><img src="images/team3.jpg">
+		    <h1>Himan vrma</h1>
+		    <h2>co-maneger</h2>
+		    <p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 tempor inccaollit anim id est labor</p></div>
+
+
+
+		<div class="blog_img"><img src="images/team4.jpg">
+		    <h1>sunidhi musk</h1>
+		    <h2>ceo-assitanat</h2>
+		    <p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 tempor inccaollit anim id est labors</p></div>
+	</div>
+
+	<button class="btn_blog">wacth more</button>
+	</section>
+
+	<section class="map"></section>
+
+
+	<section class="end"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor <a href="#" class="endsign">sign up</a>.</section>
+
+
+
+
+
+
+
+
+
+
+	         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	   
+	  
+
+	   	     
+
+	            
+
+
+	          
+
+	</body>
+	</html>

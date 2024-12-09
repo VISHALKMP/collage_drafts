@@ -1,0 +1,289 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+ 
+nav
+{
+	/*padding: 20px;*/
+	width: 100%;
+	position: fixed;
+	/*background: red;*/
+	align-items: center;
+}
+
+.nav_inr button 
+{
+	padding: 5px;
+	height: 37px;
+	width: 50px;
+	margin-top: 22px;
+	margin-left: -87px;
+	border-radius: 0 5px 5px 0;
+	border: none;
+	background: #00bcc7;
+}
+
+.nav_inr button .info-content
+{
+	color: white;
+	font-size: 17px;
+}
+
+
+
+
+.navbar 
+{
+	/*max-width: 1200px;*/
+	width: 100%;
+	/*padding: 7px;*/
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	background:rgba(0, 0, 0, 0.2);
+	position: sticky;
+	margin-top: 0;
+	z-index: 5;
+
+
+}
+
+.nav_inr
+{
+	width: clc(33.33% - 10px);
+	/*padding: 10px;*/
+	/*background: grey;*/
+}
+
+.nav_inr ul li { display: inline-block; padding: 0 30px; font-size: 21px; font-weight: 500;}
+.nav_inr ul li a {color: white;}
+
+.navone{display: flex; justify-content: space-around; /*background: black;*/}
+
+.navone .navnav{padding: 10px; background: transparent;}
+
+.navone .navnam{padding: 10px;background: transparent;}
+
+.navnam h1 {font-size: 18px; color: white; font-weight: 0; font-family: sans-serif;}
+.navnam h3 {font-size: 12px; color: white; font-weight: 300; font-family: sans-serif;}
+
+.srch{ padding: 6px; width: 300px; display: inline-block; }
+
+
+
+
+/*--------------------------------*/
+#home 
+{
+	background: #ffc800;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*padding: 50px;*/
+
+}
+
+.home_inner
+{
+	padding: 20px;
+	/*background: red;*/
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /*margin-top: 50px;*/
+}
+
+.home_imr
+{
+	padding: 20px; 
+	/*background: blueviolet;*/
+	width: calc(60% - 10px);
+}
+
+.home_inr
+{
+	width: calc(40% - 10px);
+	padding: 20px;
+	/*background: honeydew;*/
+}
+
+.home_imr h1
+{
+	font-size: 48px;
+	font-weight: 900;
+	color: white;
+	font-family: sans-serif;
+}
+
+.home_imr p 
+{
+	font-size: 26px;
+	font-family: sans-serif;
+	text-transform: capitalize;
+	color: white;
+	margin-top: 10px;
+}
+
+.btn1
+{
+	outline: none;
+	border: none;
+	padding: 10px 14px;
+	background: #00c3cf;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.btn2
+{
+	/*outline: none;*/
+	/*border: none;*/
+	background: transparent;
+	padding: 10px 14px;
+	border-radius: 5px;
+	border-color: white;
+}
+
+/*-------------------------------------------*/
+
+#video
+{
+	padding: 50px;
+	background-color: #ffffff;
+}
+
+.main
+{
+	padding: 20px;
+	/* background-color:#930342; */
+	display: flex;
+	justify-content:center;
+	align-items: center;
+
+}
+
+.main .left-side
+{
+	padding: 10px;
+	background-color: azure;
+	width: calc(50% - 20px);
+}
+
+.main .right-side
+{
+	padding: 10px;
+	background-color: azure;
+	width: calc(50% - 20px) ;
+}
+
+.left-side h1
+{
+	font-size: 36px;
+	font-style: sans-serif;
+
+}
+
+.left-side p 
+{
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.video-btn
+{
+	padding: 14px 18px;
+	background-color: #ffc800;
+	color: black;
+	border: none;
+	outline: none;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+/* right side-------------- */
+
+.right-side .div1 
+{
+	padding: 50px;
+	/* background-color: red; */
+
+}
+
+.div2 {
+	padding: 10px;
+	/* background-color: yellow; */
+	/* height: 100px;
+	width: 195px; */
+	/* margin: 25px 100px 100px 0px;
+	margin-left: 130px; */
+}
+
+.div2 img
+{
+	
+	margin-left: calc(30% - 10px);
+
+}
+
+.third
+{
+	margin: 0;
+	padding: 0;
+	tx
+}
+
+/* --------------------------------------------------- */
+
+#team 
+{
+	background-color: red;
+    padding: 10px;
+}
+
+.works 
+{
+	padding: 20px;
+	background-color: #ffc800;
+
+}
+
+.works h1,h3 {
+	text-align: center;
+}
+
+.worksone{
+	font-family: sans-serif;
+	font-weight:500 ;
+	font-size: 28px;
+	color: #ffffff;
+}
+
+.workstwo{
+	font-family:  serif;
+	font-weight: 300;
+	font-size: 24px;
+	color: white;
+	padding: 0 0 40px 0;
+}
+/* ------------------------ */
+.works_inrdiv
+{
+	display: flex;
+	justify-content: space-around;
+	padding: 0 150px;
+}
+
+.works_inrdiv span img
+{
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+	
+}
